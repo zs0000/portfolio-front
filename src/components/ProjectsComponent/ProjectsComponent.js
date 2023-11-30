@@ -32,7 +32,7 @@ export default function ProjectsComponent() {
         </div>
         <div className={s.content}>
             {projects ? projects.map((project) => (
-                <ProjectCard project={project} />
+                <ProjectCard key={project.title} project={project} />
             )): <></>}
         </div>
     </div>

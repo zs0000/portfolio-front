@@ -41,7 +41,7 @@ export default function TechComponent() {
     <div className={s.container}>
         <div className={s.content}>
             {techs ? techs.map((tech) => (
-                <div className={s.techcontainer}>
+                <div key={tech.category} className={s.techcontainer}>
                     <div className={s.categorycontainer}>
                         <span className={s.category}>
                             {tech.category}
@@ -49,7 +49,7 @@ export default function TechComponent() {
                     </div>
                     <div className={s.itemscontainer}>
                         {tech.items.map((item) => (
-                            <div className={s.itemcontainer}>
+                            <div key={item} className={s.itemcontainer}>
                                 <span className={s.item}>
                                     {item}
                                 </span>
