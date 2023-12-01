@@ -1,5 +1,5 @@
 .container{
-    @apply w-full h-full flex flex-col bg-white my-4 p-2 md:rounded-lg border
+    @apply w-full h-full flex flex-col bg-white mt-2 p-2 md:rounded-lg border
 }
 .content{
     @apply w-full h-full grid grid-cols-1 gap-2 p-2;

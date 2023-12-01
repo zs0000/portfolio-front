@@ -1,0 +1,22 @@
+.container{
+    @apply w-full h-full flex p-4 mt-2 flex-col bg-white md:rounded-lg border border-gray-200;
+}
+
+.content{
+    @apply w-full h-full flex flex-col items-center
+}
+.labelcontainer{
+    @apply w-full
+}
+
+.label{
+    @apply text-lg  text-gray-600 tracking-tight leading-relaxed font-semibold;
+}
+
+.biocontainer{
+    @apply  h-full flex justify-center items-center  p-4;
+}
+
+.bio{
+    @apply  text-base text-gray-600 tracking-tight leading-relaxed flex flex-col gap-2;
+}

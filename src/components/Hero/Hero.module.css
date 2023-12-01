@@ -27,18 +27,23 @@
 }
 
 .infocontainer{
-    @apply  flex flex-col; 
+    @apply  flex flex-row; 
 }
 
 .bottomcontainer{
-    @apply h-full w-full flex flex-col  p-4 items-center justify-center
+    @apply h-full w-full flex flex-col pt-8 p-4 
 }
 
-.biocontainer{
-    @apply max-w-prose h-full flex justify-center items-center  p-4;
+
+
+.smalllabel{
+    @apply text-xs md:text-sm text-gray-400 tracking-tight leading-relaxed;
 }
 
-.bio{
-    @apply text-sm md:text-base text-gray-600 tracking-tight leading-relaxed flex flex-col gap-2;
+.label{
+    @apply text-sm md:text-base text-gray-600 tracking-tight leading-relaxed;
 }
 
+.biglabel{
+    @apply text-sm md:text-base text-purple-900 underline tracking-tight leading-relaxed ;
+}
