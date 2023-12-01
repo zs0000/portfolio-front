@@ -3,20 +3,20 @@ import s from './ProjectsComponent.module.css';
 export default function ProjectsComponent() {
     const projects = [
         {
-            title:"GeneLink",
-            description:"Real-world Website for reptile enthusiasts and commercial breeders to track their lineage and create lineage trees, simplifying the process for breeders, and allowing consumers to follow along with ease. A whole lineage, in one link.",
+            title:"GeneLink [WiP]",
+            description:"Real-world Website for reptile enthusiasts and commercial breeders to track their lineage and create lineage trees, simplifying the process for breeders, and allowing consumers to follow along with ease. A whole lineage, in one link. Planning on full release December or January 2024.",
             image:"",
             link:"https://mygenelinks.com",
         },
         {
             title:"Twitter Clone",
-            description:"A 1 to 1 visual clone of Twitter in 2022. This project was to gauge my ability to recreate responsive layouts. It includes basic functionality such as posts, follows, likes, retweets, etc, all built using  React, Next.js, and TailwindCSS.",
+            description:"A 1 to 1 visual clone of Twitter in 2022. This project was to gauge my ability to recreate responsive layouts that are mobile friendly. It includes basic functionality such as posts, follows, likes, retweets, etc. Along the way I also learned about global state management, server-side authentication, and how to utilize cache to reduce page load times to near instant, and much more that is helping me build my first real-world application, GeneLink.",
             image:"",
             link:"https://twitter-proj-iota.vercel.app/home",
         },
         {
             title:"RidOf",
-            description:"An example application that allows users to sell their unwanted items, and buy items from other users. Users can create listings, and browse listings from other users. Users can also message other users, and leave reviews on other users.",
+            description:"An example application inspired by OfferUp. I mainly built this project to teach me about image-storage, caching, LAMBDA functions, and the important backend fundamentals, such as storing data with complex relationships and practicing implementing production-grade procedures such as Row-level security since I am using Postgres. Includes the basics for an application of this type, allowing users to sell their unwanted items, and buy items from other users. Users can create listings, and browse listings from other users. Users can inquire about the listing by messaging the seller, and the seller can respond to the inquiry.",
             image:"",
             link:"https://rid-of-app.vercel.app/",
         },
