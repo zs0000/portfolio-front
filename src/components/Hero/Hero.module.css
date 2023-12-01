@@ -1,7 +1,9 @@
 .container{
     @apply w-full h-full flex flex-col bg-white md:rounded-lg border border-gray-200;
 }
-
+.darkcontainer{
+    @apply w-full h-full flex flex-col bg-gray-900 md:rounded-lg border border-gray-800 text-gray-200
+}
 .bannercontainer{
     @apply w-full h-[200px] relative;
 }
@@ -13,21 +15,24 @@
 .photo{
     @apply w-full h-full object-cover p-2 bg-white antialiased rounded-full absolute 
 }
+.darkphoto{
+    @apply w-full h-full object-cover p-2 bg-gray-900 antialiased rounded-full absolute 
+}
 
 .middlecontainer{
     @apply w-full flex flex-row 
 }
 
 .namecontainer{
-    @apply pl-[172px] md:pl-[232px] pt-2 md:pt-4 flex flex-col 
+    @apply pl-[172px] md:pl-[232px] w-full pt-2 md:pt-4 flex flex-col 
 }
 
 .name{
-    @apply text-xl lg:text-2xl tracking-tight font-bold ;
+    @apply  text-xl w-full lg:text-2xl tracking-tight font-bold ;
 }
 
 .infocontainer{
-    @apply  flex flex-row; 
+    @apply  flex flex-row w-full; 
 }
 
 .bottomcontainer{
@@ -35,6 +40,13 @@
 }
 
 
+.links{
+    @apply pt-2 pr-2 gap-2 flex sm:flex-row flex-col 
+}
+
+.link{
+    @apply w-full h-full flex flex-row justify-between items-center rounded-full md:border md:p-3
+}
 
 .smalllabel{
     @apply text-xs md:text-sm text-gray-400 tracking-tight leading-relaxed;

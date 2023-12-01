@@ -1,11 +1,15 @@
+import { useRouter } from 'next/router';
 import s from './ProjectCard.module.css';
 
 export default function ProjectCard({project}) {
-
+    const router = useRouter();
+    const handleClick = () => {
+        router.push(project.link)
+    }
 
     if(!project) return <></>
   return (
-    <div className={s.container}>
+    <div className={s.container} onClick={handleClick}>
         <div className={s.content}>
             <div className={s.photocontainer}>
                 

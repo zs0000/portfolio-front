@@ -6,7 +6,7 @@ export default function ProjectsComponent() {
             title:"GeneLink",
             description:"Real-world Website for reptile enthusiasts and commercial breeders to track their lineage and create lineage trees, simplifying the process for breeders, and allowing consumers to follow along with ease. A whole lineage, in one link.",
             image:"",
-            link:"",
+            link:"https://mygenelinks.com",
         },
         {
             title:"Twitter Clone",
@@ -18,7 +18,7 @@ export default function ProjectsComponent() {
             title:"RidOf",
             description:"An example application that allows users to sell their unwanted items, and buy items from other users. Users can create listings, and browse listings from other users. Users can also message other users, and leave reviews on other users.",
             image:"",
-            link:"",
+            link:"https://rid-of-app.vercel.app/",
         },
       ]
     

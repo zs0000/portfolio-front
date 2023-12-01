@@ -2,14 +2,14 @@
     @apply w-full h-full mt-2 flex flex-col p-4 bg-white md:rounded-lg border border-gray-200;
 }
 .content{
-    @apply w-full h-full flex flex-col items-center
+    @apply w-full h-full flex flex-col items-center 
 }
 .item{
     @apply w-full h-full flex flex-row items-center;
 }
 
 .photocontainer{
-    @apply w-[80px] h-[55px]  md:w-[100px] md:h-[100px] min-w-[80px] md:min-w-[100px] relative 
+    @apply w-[80px] h-[55px]  md:w-[100px] md:h-[100px] min-w-[80px] md:min-w-[100px] relative flex justify-center items-center;
 }
 
 .infocontainer{
