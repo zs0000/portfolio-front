@@ -22,7 +22,7 @@ export default function EducationComponent() {
             </div>
             <div className={s.subtext}>
               <span className={s.subtexttext}>
-                Est. Grad. Dec. 2024
+                Est. Grad. Dec. 2025
               </span>
             </div>
             </div>
